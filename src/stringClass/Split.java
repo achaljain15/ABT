@@ -12,7 +12,7 @@ public class Split {
 
 		for(int i=0;i<length;i++)	
 		{
-			if((split[i]=="My")||(split[i]=="Achal"))
+			if((split[i].equals("My"))||(split[i].equals("Achal")))
 			{
 			sb=new StringBuffer(split[i]);
 			System.out.println(sb.reverse());
