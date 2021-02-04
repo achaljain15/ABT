@@ -10,8 +10,9 @@ public abstract class Sprint2 extends Sprint1{
 
 	@Override
 	public void insert() {
-		// TODO Auto-generated method stub
-		
+	}
+	public void read() {
+		System.out.println("Sprint 1 read concrete method");
 	}
 
 }

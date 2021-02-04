@@ -10,4 +10,8 @@ public abstract class Sprint1 extends MSWord {
 	public void formating() {
 		
 	}
+	
+	public void write() {
+		System.out.println("Sprint 1 write concrete method");
+	}
 }

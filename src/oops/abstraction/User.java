@@ -9,6 +9,9 @@ public class User {
 		
 		MSWord abc = new Sprint3();
 		abc.formating();
+		Sprint3 xyz=new Sprint3();
+		xyz.write();	
+		xyz.read();
 	}
 
 }
