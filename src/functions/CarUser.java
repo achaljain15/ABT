@@ -10,13 +10,13 @@ public class CarUser {
 		carUser.color="White";
 		carUser.type="XUV";
 		//carUser.wheels=6;
-		
+		carUser.wheels=6;
 		carUser.feature();
 		
 		Car owner= new Car();
 		owner.color="Black";
 		owner.type="Sedan";
-		//owner.wheels=4;
+		owner.wheels=4;
 		owner.feature();
 	Modifiers access= new Modifiers();
 		access.publicModifier();
