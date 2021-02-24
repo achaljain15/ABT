@@ -5,7 +5,8 @@ public class Testing {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 UserDetails abc = new UserDetails();
-abc.age=22;
+//int age=abc.setAge(22);
+abc.setAge(22);
 
 
 String a="Ananannanana";

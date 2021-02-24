@@ -9,8 +9,7 @@ public class ReadPropertiesFile {
 
 	public static void main(String args[]) throws IOException
 	{
-		//System.out.println(System.getProperty("user.dir")+"C:\\Users\\ssand\\eclipse\\Project\\ABT\\src\\filehandler");
-		//C:\Users\ssand\eclipse\Project\ABT\src\filehandler
+		System.out.println(System.getProperty("user.dir"));
 		
 		//Step 1 : File path
 		String filepath=System.getProperty("user.dir")+"\\src\\filehandler\\TestData.properties";
@@ -23,5 +22,6 @@ public class ReadPropertiesFile {
 		p.load(file);
 		//Step 5 : Call the required value
 		System.out.println(p.getProperty("name"));
+		System.out.println(p.keySet());
 	}
 } 
