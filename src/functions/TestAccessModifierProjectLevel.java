@@ -2,7 +2,7 @@ package functions;
 
 import AccessModifier.Modifiers;
 
-public class TestAccessModifierProjectLevel {
+public class TestAccessModifierProjectLevel extends Modifiers {
 	public static void main() {
 		
 	
@@ -10,6 +10,8 @@ public class TestAccessModifierProjectLevel {
 	obj.publicModifier();
 	//obj.privateModifier();
 	//obj.defaultModifer();
-//	obj.ProtectedModifer();
+	//Accessing Protected member of Modifiers class in AccessModifier package
+	TestAccessModifierProjectLevel obj1=new TestAccessModifierProjectLevel();
+	obj1.ProtectedModifer();
 	}
 }

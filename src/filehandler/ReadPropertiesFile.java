@@ -23,5 +23,6 @@ public class ReadPropertiesFile {
 		//Step 5 : Call the required value
 		System.out.println(p.getProperty("name"));
 		System.out.println(p.keySet());
+		System.out.println(p.values());
 	}
 } 

@@ -2,7 +2,7 @@ package oops.encapsulation;
 
 public class UserDetails {
 	
-	private int age;
+	private int age=10;
 
 	public int getAge() {
 		return age;

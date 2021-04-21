@@ -11,10 +11,10 @@ public class MapInterface {
 		
 		
 		map.put("Achal",1);
-		map.put("Pradip",2);
+		map.put("Achal",2);
 		map.put("Jain",3);
 		
-		System.out.println(map.get("Jain"));
+		System.out.println(map.get("Achal"));
 
 	}
 

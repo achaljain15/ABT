@@ -20,6 +20,11 @@ public class CarUser {
 		owner.feature();
 	Modifiers access= new Modifiers();
 		access.publicModifier();
+		
+		Car[] car=new Car[2];
+		car[0]=new Car();
+		car[0].feature();
+	
 	}
 
 }
