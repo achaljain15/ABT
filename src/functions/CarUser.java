@@ -24,6 +24,9 @@ public class CarUser {
 		Car[] car=new Car[2];
 		car[0]=new Car();
 		car[0].feature();
+		
+		Class<Car> c=Car.class;
+		//int num= Car.wheels;
 	
 	}
 
