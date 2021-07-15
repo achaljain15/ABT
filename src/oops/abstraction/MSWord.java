@@ -1,7 +1,7 @@
 package oops.abstraction;
 
 public abstract class MSWord   {
-	public abstract void hyperlink();;
+	public abstract void hyperlink();
 	public abstract void  formating();
 	public abstract void save();
 	public abstract void insert();

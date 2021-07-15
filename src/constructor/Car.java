@@ -1,6 +1,6 @@
 package constructor;
 
-public class Car {
+public class Car extends Vehicle {
 
 String color;
 String type;
