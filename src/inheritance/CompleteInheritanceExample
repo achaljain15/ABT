@@ -1,0 +1,27 @@
+ class Mobile extends Smartphone{
+	
+	public void videocalling()
+	{
+		System.out.println("Mobile Child class Videocalling");
+	}
+	public void texting() {
+	System.out.println("Child class Mobile texting");
+}
+	public static void main(String args[]){
+		Smartphone m=new Mobile();
+// 		m.videocalling();
+		m.texting();
+		m.dialing();
+	}
+}
+
+class Smartphone extends Telephone{
+public void texting() {
+	System.out.println("Smartphone Parent class texting");
+}}
+
+class Telephone {
+	public void dialing() {
+		System.out.println("Telephone Grandparent class dialing");
+	}
+}
